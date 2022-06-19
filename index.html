@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Your description goes here">
+    <meta name="keywords" content="one, two, three">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+    <title>Ella Bella Salon</title>
+
+    <!-- external CSS link -->
+    <script src="https://kit.fontawesome.com/d4cd10afa8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Dancing+Script:wght@400;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+	  <!--Navigation hamburger-->
+	  <div id="hamburger">
+		<span></span>
+		<span></span>
+		<span></span>
+	  </div>
+	  <!--Ella Bella logo-->
+	  <div id="site-logo">
+	  <div class="logo">Ella Bella</div>
+	  </div>
+	  <!--Navigation menu-->
+	  <nav>
+		<ul>
+		  <li><a href="#">Home</a></li>
+  		  <li><a href="#servicesSection">Services</a></li>
+		  <li><a href="#aboutSection">About</a></li>
+		  <li><a href="#lookbookSection">Lookbook</a></li>
+		  <li><a href="#contactSection">Contact</a></li>		
+		</ul>
+		<div id="book-nav-btn" class="btn black-btn">
+		  <span>- Book online</span>
+		</div>
+	  </nav>
+	</header>
+
+	<main>
+	  <!--Hero section-->
+	  <section id="home" class="hero">
+		<section id="hero-background">
+		</section>
+	    <section id="hero-content">
+		  <h1>Blonde <br>& Highlight</h1>
+		  <span>Divide your uniqueness by your hair in style</span>
+		  <!--New client offer-->
+		  <section id="new-client"> 
+			<span>Your first visit?</span>
+			<p>
+			  <strong>-20%</strong> for the first classic hair coloring
+			</p>
+			<div id="hero-book-btn" class="black-btn btn">
+			  - Book online
+			</div>
+		  </section>
+		</section>
+	  </section>
+
+	  <!--Our Services section-->
+
+ 	  <section id="services-section" class="section-layout">
+		<h2>Our Services</h2>
+		<section id="services">
+		  <section id="expert" class="services">
+			<img src="assets/services1.jpg" alt="">
+			<div class="card cardRight">
+			  <h3>Expert Beauticians</h3>
+			  <p>
+				Beauty Experts dolor sit amet, consectetur adipisicing elit. Facilis enim reprehenderit qui sit nemo veniam modi.
+			  </p>
+			</div>
+		  </section>
+		  <section id="quality" class="services">
+			<img src="assets/services2.jpg" alt="" >
+			<div class="card cardLeft">
+			  <h3>Quality Services</h3>
+			  <p>
+				Hair Styling Services sit amet, consectetur adipisicing elit. Facilis enim reprehenderit qui sit nemo veniam modi.
+			  </p>
+			</div>
+		  </section>
+		  <section id="beauty" class="services">
+			<img src="assets/services3.jpg" alt="">
+			<div class="card cardRight">
+			  <h3>Beauty Products</h3>
+			  <p>
+				Hair color or Product sit amet, consectetur adipisicing elit. Facilis enim reprehenderit qui sit nemo veniam modi.
+			  </p>
+			</div>
+		  </section>
+	 	</section>
+	  </section>
+
+	  <section class="section-layout" id="video">
+		<section id="video-content">
+		  <section id="video-info">
+			<h4>Make Your <br>Own Momentum</h4>
+			<p>
+			  Hair Salon dolor sit amet, consectetur adipisicing elit. Repellendus quis illum recusandae ab ipsum, pariatur quam minima a et molestiae aperiam consequuntur dolorem dolore eius tempora itaque architecto blanditiis provident accusantium beauty products.
+			</p>
+			<div class="white-btn btn">- Read More</div>
+		  </section>
+
+		  <video controls poster="assets/poster.png">
+						<source src="assets/ellaBellaVideo.mp4" type="video/mp4" >
+					</video>
+				</section>
+			</section>
+
+			<section class="section-layout" id="about">
+				<h2>About Ella Bella Salon</h2>
+				<section id="about-content" class="gallery-grid">
+						<img src="assets/salonFloor.jpg" alt="Photo of Ella Bella Salon's interior" class="item column">
+					<div class="column">
+						<img src="assets/algoeNY.jpg" alt="Algoe, NY on a map" class="item">
+
+					  <section id="salon-hours-location" class="item">
+						<span id="appointment">by appointment only</span>
+						<h3>Hours</h3>
+						<span id="hours">Mon - Sun : 7:00AM - 8:00PM</span> 
+						<h3>Location</h3>
+						<address>
+						  215 Main St.<br>
+						  Algoe, NY 12740<br>
+						  <span>(845) 555-5555</span>
+						</address>
+					  </section>
+					</div>
+				
+						<img src="assets/ellaBellaStorefront.png" alt="Photo of Ella Bella salon's storefront" class="column item">
+				</section>
+			</section>
+
+			<section class="section-layout" id="newsletter">
+				<section id="newsletter-content">
+
+						<section id="newsletter-info">
+						<h3>Newsletter color offer!</h3>
+						<p>Sign up for our newsletter and get</p>
+						<h4><strong>-10%</strong> on your next haircut, <br> color, and highlight</h3>
+						</section>
+						<section id="newsletter-form">
+							<h3>Newsletter</h3>
+							<form>
+								<label for="name">Name:</label>
+								<input id="name" type="text" name="name" placeholder="Name" required>
+								</input>
+								<label for="email">Email:</label>
+								<input type="text" id="email" name="email" placeholder="Email Address" required>
+								
+							</form>
+							<div id="subscribe" class="white-btn btn">
+								Subscribe
+								</div>
+
+					</section>
+				</section>
+			</section>
+			<section class="section-layout" id="lookbook">
+				<h2>Our Lookbook</h2>
+				<section id="lookbook-content" class="gallery-grid">
+					<div class="column">
+						<img src="assets/lookbook1.png" alt="" class="item">
+						<img src="assets/lookbook2.png" alt="" class="item">
+				</div>
+				<div class="column column-reverse">
+						<img src="assets/lookbook3.png" alt=""class="item">
+						<img src="assets/lookbook4.png" alt="" class="item">
+				</div>
+				<div class="column">
+						<img src="assets/lookbook5.png" alt="" class="item">
+						<img src="assets/lookbook6.png" alt=""class="item">
+				</div> 
+				</section>
+			</section>
+			<section id="contact">
+				<h2>Contact Us</h2>
+				<section id="contact-info">
+					<section id="contact-form">
+						<form>
+							<input type="text" name="name" id="contact-name" placeholder="Name" required>
+							<input type="text" name="email"
+							id="contact-email" placeholder="Email" required>
+							<textarea id="contact-comment" name="comment" required>Enter your comment here</textarea>
+							
+						</form>
+						<section id="form-buttons">
+							<div class="btn white-btn" id="clear">clear</div>
+							<div class="btn white-btn" id="submit">submit</div>
+						</section>
+					</section>
+					<section id="contact-details">
+	 
+						<h3>Location</h3>
+						<address>
+						215 Main St.<br>
+						Algoe, NY 12740<br>
+						</address>
+						<h3>Phone</h3>
+						<span>(845) 555-5555</span>
+						<section id="social-media">
+						
+								<i class="fa-brands fa-facebook-square"></i>
+					
+								<i class="fa-brands fa-twitter-square"></i>
+					
+								<i class="fa-brands fa-instagram-square"></i>
+				
+						</section>
+					</section>
+				</section>
+
+			</section>
+		</main>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
